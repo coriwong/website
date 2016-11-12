@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link 
+			rel="stylesheet" 
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<link rel="stylesheet"
+			type="text/css"
+			href="style.css">
+
+		<link rel="carosuel"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+
+
+		<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+		</script>	
+
+
+	</head>
+	<body>
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" datatoggle="
+					collapse" data-target="#navbar" aria-expanded="false" ariacontrols="
+					navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Awesome Project</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#overview">Overview</a></li>
+					<li><a href="#features">Features</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+
+
+		<header>
+			<div class="container"
+				<div class="jumbotron">
+				<h1> The Life of Cori</h1>
+				<p class="lead"> A little website I made in coding class!
+				</p>
+			</div>
+
+			<div>
+				<h2> Undergraduate Junior at the University of Michigan 
+				</h2>
+				<p id="paragraph1"> I am studying at the <strong>Stephen M. Ross School of Business</strong> and <strong> School of Literature Science and the Arts </strong><small> (looking for an internship in tech) </small> and want to do something regarding
+				<em>  Business Strategy and Marketing. </em> I am from San Diego, CA and enjoy traveling to different cities and countries to experience new cultures and perspectives.
+			</div>
+			<div>
+				<a href="http://www.corinnewongphotography.wordpress.com" target="_blank"> This is my photography website.
+				</a></p>
+				<p id="paragraph2"> Here's a photo of a tree from Google search: </p>
+				<br>
+					<img src="http://weknowyourdreams.com/images/tree/tree-01.jpg">
+				<br> 
+				<p>Isn't it magical?</p>
+				<br>
+				<p> Here's a photo from my files: </p>
+				<img src="/Users/coriwong/Documents/Photos/pinapple.jpg">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class= "col-md-6">
+					<ul style="list-style-type:square"> 
+						<h3> <span style="color:#E2E062"> Things I want to do with my life: </span> </h3>
+						<li> Save the world </li>
+						<li> Be an entrepreneur </li>
+						<li> Explore and travel the world </li>
+					</ul>
+				</div>
+					<div class= "col-md-6">
+						<ol> 
+						<h3><span style="color:#E2E062"> Ordered list of professional goals: </span></h3>
+						<li> Join a tech company </li>
+						<li> Start a business</li>
+						<li> Become a VC </li>
+						</ol>
+					</div>
+				</div>
+
+			<script>
+				alert("WARNING: YOU ARE ABOUT TO ENTER A PAGE THAT MAY EXPLODE. PROCEED WITH CAUTION.");
+			</script>
+
+			<p id="myParagraph"> </p>
+				<button type="button"
+					onclick="document.getElementById('myParagraph').innerHTML =
+					'Nothing Happened.'">Click
+				</button>
+
+			<p id="prettyParagraph"> </p>
+			<button type="button" onclick="applyingStyling()">Make it pretty!
+				</button>
+					<script> 
+						function applyStyling() {
+						var paragraph = document.getElementById("prettyParagraph");
+						paragraph.style.color = "green";
+						paragraph.style.fontSize = "29px";
+						paragraph.style.fontWeight = "700";
+					}
+					</script>
+
+			<!--//below doesn't work-->
+					<input id="numericInput" type="number">
+						<p id="result"></p>
+						<button type="button"onclick="testinput()">Test Input</button>
+						<script>
+							function testInput() {
+							// Create variable to store test result
+							var text;
+							// Get the value of the input field with id="numb"
+							var x = document.getElementById("numericInput").value;
+							if (isNaN(x) || x < 0 || x > 99) {
+							text = "Wrong input";
+							} else {
+							text = "Correct input";
+							}
+							// Display result
+							document.getElementById("result").innerHTML = text;
+							}
+						</script>
+
+
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery
+.min.js"></script>
+
+
+
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			I am the first element in the carousel.
+		</div>
+		<div class="item">
+			I am the second element in the carousel.
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	$("#myCarousel").carousel({interval: 4000});
+});
+</script>
+
+
+
+	</body>
+
+
+<html>

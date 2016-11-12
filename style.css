@@ -1,0 +1,37 @@
+header {
+	text-align: center;
+	margin-top: 50px;
+}
+h1 {
+	color:#E2E062;
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	text-align: center;
+}
+h2 {
+	color:#329B9C;
+	font-size: 18px;
+}
+body {
+	background-color: #0A272B;
+}
+img {
+	margin: 20px;
+}
+img{
+	height: 60%;
+	width: 60%;
+	padding: 10px;
+}
+p{
+	color:#7BB869;
+}
+#paragraph1{
+	text-align: center;
+	color:#7BB869;
+}
+li { 
+	color:#ABCD64;
+}
+button{
+	margin-bottom: 50px;
+}
